@@ -1,0 +1,40 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+  .myTable {
+    height: 80vh;
+    width: 60vh;
+    border-radius: 16px 16px 10px 10px;
+    background-color:rgb(255, 149, 0);
+    padding: 10px;
+    padding-top:32px;
+  }
+  table tr td{
+    text-align: center;
+    font-size: larger;
+    background-color: black;
+    color: #f5f5f5;
+    border-radius: 10px ;
+  }
+  table tr td:hover{
+    cursor: pointer;
+  }
+  .display {
+    text-align: right;
+    padding-right: 0.5rem; /* Add consistent padding */ /* Increase font size if needed */
+    background-color: rgb(89, 108, 91);
+    color: black;
+    font-size: 32px;
+    border-radius: 6px;
+  }
